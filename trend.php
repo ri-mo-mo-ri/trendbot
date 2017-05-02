@@ -24,7 +24,7 @@ foreach ( $XML->channel->item as $item ) {
 $url = 'https://hooks.slack.com/services/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';
 $data = [
   'text' => ''.$tweets,
-  'username' => 'test',
+  'username' => 'りーもーくん',
   'icon_emoji' => ':soreike:',
 ];
 
