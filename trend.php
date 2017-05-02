@@ -11,7 +11,6 @@ foreach ($RSSpath as $url) {
   $x=0; // カウントをリセット
   $num=3; // 指定した数で終了
 
-
 foreach ( $XML->channel->item as $item ) {
     if ( $x>=$num ) { // 指定した数とマッチしたら終了
     break;
@@ -26,7 +25,7 @@ $url = 'https://hooks.slack.com/services/T1N9BUSLB/B5750AUR1/sLVsRI5drdQLnmu2rPA
 $data = [
   'text' => ''.$tweets,
   'username' => 'test',
-  'icon_emoji' => ':kill_anotherpenguin:',
+  'icon_emoji' => ':soreike:',
 ];
 
 $ch = curl_init();
